@@ -3,7 +3,7 @@ from collections.abc import Iterable
 from dateutil.parser import parse
 from datetime import datetime
 
-class DealinedMetaReminder(Iterable, metaclass=ABCMeta):
+class DeadlinedMetaReminder(Iterable, metaclass=ABCMeta):
     @abstractmethod
     def is_due(self):
         pass
