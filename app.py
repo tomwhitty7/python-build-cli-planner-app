@@ -3,7 +3,7 @@ from src.deadlined_reminders import DateReminder, DeadlinedReminder
 from src.external_reminders import EveningReminder
 from src.reminder import PoliteReminder
 
-DealineReminder.register(PoliteReminder)
+DeadlinedReminder.register(PoliteReminder)
 
 def handle_input():
     choice = input("Choice: ")
